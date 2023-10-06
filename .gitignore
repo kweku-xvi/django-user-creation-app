@@ -4,3 +4,4 @@ main/migrations/__pycache__
 user_creation/__pycache__
 user_register/__pycache__
 user_register/migrations/__pycache__
+virtual_env

@@ -81,9 +81,9 @@ WSGI_APPLICATION = 'user_creation.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'user_creation',
-        'USER': 'postgres',
-        'PASSWORD': 'iamavailable2018',
+        'NAME': '', # name of your database 
+        'USER': '', # owner of the database 
+        'PASSWORD': '', # password
         'HOST': 'localhost',  # You can specify the PostgreSQL server's address
         'PORT': '5432',  # Default PostgreSQL port is 5432
     }

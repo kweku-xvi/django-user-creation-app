@@ -1,0 +1,6 @@
+media
+main/__pycache__
+main/migrations/__pycache__
+user_creation/__pycache__
+user_register/__pycache__
+user_register/migrations/__pycache__

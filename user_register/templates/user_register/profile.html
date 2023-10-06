@@ -17,7 +17,7 @@
         </div>
         <!-- FORM HERE -->
         <form class="form-group" method="post" enctype="multipart/form-data">
-            {% csrf_token %}
+            {% csrf_token %} 
             {{u_form|crispy}}
             {{p_form|crispy}}
             <button type="submit" class="btn btn-outline-success">Update</button>
